@@ -4,7 +4,7 @@ class AiappScanner < Formula
   desc "Scan macOS for installed AI applications and CLI tools"
   homepage "https://github.com/ronaldbradford/aiapp-scanner"
   url "https://github.com/ronaldbradford/aiapp-scanner/archive/v0.1.0.tar.gz"
-  sha256 "3a791654c58f638e9094d2d565baa36438a92641481ff882807aa3ef5b816157"
+  sha256 "3f5e28b1fff4260dc6fa9cc1986d2aade792ace3300e85f7fe2d8aa07846bffe"
   license "MIT"
 
   depends_on "python@3.12"
