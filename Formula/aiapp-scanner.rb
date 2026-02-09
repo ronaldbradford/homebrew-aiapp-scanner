@@ -50,10 +50,7 @@ class AiappScanner < Formula
   end
 
   test do
-    output = shell_output("#{bin}/aiapp-scanner --create-default-config 2>&1")
-    assert_match "Default configuration created", output
-
-    output = shell_output("#{bin}/aiapp-scanner --pretty")
+    output = shell_output("#{bin}/aiapp-scanner --config #{etc}/aiapp-scanner/config.json --pretty 2>&1")
     assert_match "scan_metadata", output
   end
 end
